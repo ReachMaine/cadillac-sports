@@ -53,6 +53,9 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
 }
 @media only screen and (min-width: 481px) {  // everything EXCEPT smaller mobile-nav-controller
+  #reach-above-content-wrap {
+    display: none;
+  }
   .single-post .style2-blog {  // use smaller image
   	.post-thumb {
   			max-width: 40%;
