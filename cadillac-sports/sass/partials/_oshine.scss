@@ -35,12 +35,9 @@
 		margin-bottom: 0px;
 	}
 }
-.left-sidebar-page,
-.right-sidebar-page,
-.no-sidebar-page .be-section-pad:first-child,
-.page-template-page-940-php #content,
-.no-sidebar-page #content-wrap,
-.portfolio-archives.no-sidebar-page #content-wrap {
+// default padding above pages usually WAY too large.
+
+.no-sidebar-page #content-wrap.be-wrap {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
