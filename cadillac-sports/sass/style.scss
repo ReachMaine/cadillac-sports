@@ -92,6 +92,11 @@ body.archive {
     margin-bottom: 0px;
 	}
 }
+#bottom-widgets {
+  .cff-likebox  { // custom facebook feed
+    margin-top: 0px!important;
+  }
+}
 // footer
 #footer {
     a.reach-logo {
@@ -101,6 +106,8 @@ body.archive {
     	content: url('images/reach-favicon.png');
     	padding-right: 4px;
     }
+
 }
+
 /* *** keep this at the end *** */
 @import "partials/media";
