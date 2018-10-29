@@ -43,6 +43,9 @@ Version: 1.2
     margin-top: 10px;
   }
 }
+#header #header-inner-wrap {
+  height: 0px; // also see to media.
+}
 /*** styling of content */
 // both archive & single
  .style2-blog {
